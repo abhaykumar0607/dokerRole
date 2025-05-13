@@ -1,0 +1,9 @@
+---
+    - name: Restart Docker
+
+      systemd:
+
+        name: docker
+
+        state: restarted
+# handlers file for displayhealth
